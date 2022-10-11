@@ -8,7 +8,7 @@
     <link rel="icon" href="img/yago_logo.svg">
 
     <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- FONT MONO, INTER, SANS, RALEWAY, AND MONTSERRAT -->
@@ -18,10 +18,12 @@
 </head>
 <body>
     
+    <!-- Splash -->
     <div class="splash">
         <img class="fade-in" src="img/yago_logo.svg" alt="Yago logo" class="nav-logo">
     </div>
 
+    <!-- Bloobs -->
     <section>
         <div class="blob1">
             <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
@@ -134,6 +136,58 @@
         </div>
     </section>
 
+
+    <!-- Menu RRSS -->
+    <div class="menu">
+        <div class="blob-menu">
+            <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                <g transform="translate(158.8209991455078, -9.27978515625)">
+                  <path fill="#F5EDEA">
+                      <animate attributeName="d"
+                      dur="12000ms"
+                      repeatCount="indefinite"
+                      
+                      values="M416.5,315Q380,380,315,414Q250,448,201.5,397.5Q153,347,96.5,298.5Q40,250,107,212Q174,174,212,145.5Q250,
+                      117,307.5,126Q365,135,409,192.5Q453,250,416.5,315Z;
+                      
+                      M352,284Q318,318,284,340.5Q250,363,178.5,378Q107,393,87,321.5Q67,250,77.5,169Q88,88,169,127.5Q250,167,316.5,
+                      142Q383,117,384.5,183.5Q386,250,352,284Z;
+                      
+                      M419.5,336Q422,422,336,393Q250,364,193.5,363.5Q137,363,128,306.5Q119,250,146.5,212Q174,174,212,119Q250,64,307.5,
+                      99.5Q365,135,391,192.5Q417,250,419.5,336Z;
+                      
+                      M363,296Q342,342,296,387.5Q250,433,182,409.5Q114,386,70.5,318Q27,250,72.5,184Q118,118,184,135.5Q250,153,333.5,
+                      118Q417,83,400.5,166.5Q384,250,363,296Z;
+                      
+                      M424,326.5Q403,403,326.5,389Q250,375,175,387.5Q100,400,60,325Q20,250,82.5,197.5Q145,145,197.5,95Q250,45,285,
+                      112.5Q320,180,382.5,215Q445,250,424,326.5Z;
+                      
+                      M416.5,315Q380,380,315,414Q250,448,201.5,397.5Q153,347,96.5,298.5Q40,250,107,212Q174,174,212,145.5Q250,
+                      117,307.5,126Q365,135,409,192.5Q453,250,416.5,315Z">
+                    </animate>
+                  </path>
+                </g>
+            </svg>
+        </div>
+        <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
+        <li style="--i:0;">
+            <a href="https://github.com/yagoid" target = "_blank"><ion-icon name="logo-github"></ion-icon></a>
+        </li>
+        <li style="--i:1;">
+            <a href="https://www.linkedin.com/in/yago-iglesias-d%C3%ADaz-4441b6198" target = "_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </li>
+        <li style="--i:2;">
+            <a href="https://www.instagram.com/yago.id" target = "_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        </li>
+        <li style="--i:3;">
+            <a href="https://twitter.com/yagoigle" target = "_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+        </li>
+        <li style="--i:4;">
+            <a href="mailto:yago.igle@gmail.com" target = "_blank"><ion-icon name="mail"></ion-icon></a>
+        </li>
+    </div>
+
+    <!-- Antiguo Navbar
     <nav id="navbar" class="nav-main">
         <div id="logo" class="div-logo">
             <a href="javascript:location.reload()"><img src="img/yago_logo.svg" alt="Yago logo" class="nav-logo"></a>
@@ -151,17 +205,62 @@
                 Resumen
             </a>
         </div>
+    </nav> -->
+
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg nav-main" id="navbar">
+        <div class="container-fluid" style="width: 90%;">
+        <button class="navbar-toggler" style="background-color: #212f46;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <a href="javascript:location.reload()"><img src="img/yago_logo.svg" alt="Mano a Mano logo" class="nav-logo"></a> -->
+        <a href="javascript:location.reload()"><img src="img/yago_logo.svg" alt="Yago logo" class="nav-logo"></a>
+
+        <div class="collapse navbar-collapse div-menu" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="#sobre-mi" class="active btn-navegacion" aria-current="page"><span></span>Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#formacion" class="btn-navegacion"><span></span>Formación</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#proyectos" class="btn-navegacion"><span></span>Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacto" class="btn-navegacion"><span></span>Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a href="documentos/CV_Yago_Iglesias_Diaz.pdf" class="btn-resumen" target = "_blank">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Resumen
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
     </nav>
+
 
     <div class="container">
 
-        <!-- Presentación -->
+        <!-- PRESENTACIÓN -->
         <div class="div-presentacion row">
             <header class="header-presentacion">
                 <h5>Hola, mi nombre es</h5>
                 <h1>YAGO IGLESIAS DÍAZ</h1>
                 <p>
-                    I’m a software engineer specializing in building (and occasionally designing) exceptional <br> digital experiences. Currently, I’m focused on building accessible, human-centered products<br> at Upstatement.
+                    Soy un ingeniero de software que se especializa en crear (y ocasionalmente diseñar) experiencias digitales <br>
+                    excepcionales. Actualmente, me centro en la creación de productos accesibles y centrados en el ser humano <br> 
+                    en exageración.
+
+                    
+                    <!-- I’m a software engineer specializing in building (and occasionally designing) exceptional <br> digital experiences. Currently, 
+                    I’m focused on building accessible, human-centered products<br> at Upstatement. -->
                 </p>
                 <a href="#sobre-mi" class="btn-sobremi"><span>SOBRE MI</span></a>
             </header>
@@ -173,76 +272,427 @@
         -->
 
         <!-- Sobre mí -->
-        <div class="div-sobremi row" id="sobre-mi">
-            <div class="contenido-sobre-mi col-6">
+        <div class="div-sobremi" id="sobre-mi">
+            <div class="contenido-sobre-mi ">
+                <!-- Título -->
+                <div class="titulos">
+                    <div class="linea">&nbsp;</div>
+                    <div class="leyenda"><span class="num-titulo">01. </span>Sobre mí</div>
+                    <div class="linea">&nbsp;</div>
+                </div>
+                <!-- Contenido -->
                 <span>
-                    <h2>Sobre mí</h2>
                     <p class="p-contenido">
-                        ¡Hola! Mi nombre es Yago y me divierto pasando tiempo desarrollando código. Desde que empecé estudiando en este mundo en 2018,
+                        ¡Hola! Mi nombre es Yago y disfruto creando cosas que viven en Internet.
+                        Mi interés por este campo se inicia en 2017, cuando empecé a estudiar y aprender lo máximo posible sobre un mundo que me
+                        gusta como es el de la programación, ya sea por vía autodidacta o formaciones oficiales.<br><br>
+
+                        Actualmente estoy estudiando una ingeniería informática y desarrollando aplicaciones web para clientes, con el fin de conseguir
+                        unos ahorros. Pero por otro lado, me gusta trabajar en un entorno laboral para poder dar lo máximo de mí mismo y así aportar la
+                        mayor utilidad posible. <br><br>
+
+                        Aquí hay algunas tecnologías con las que he estado trabajando recientemente:
+
+
+                        <!-- ¡Hola! Mi nombre es Yago y me divierto pasando tiempo desarrollando código. Desde que empecé estudiando en este mundo en 2018,
                         sé que quiero dedicar mi carrera profesional a ello. Por esto, a parte de estar estudiando actualmente formaciones oficiales, realizo 
                         por mi cuenta proyectos que me interesen, como por ejemplo, <a href="#sobre-mi" class="link-meraki">Meraki</a> el cual es una aplicación 
                         para android enfocado a las pequeñas tiendas físicas.<br><br>
                         Por otro lado, también me encanta realizar cursos por mi cuenta sobre temas que me interesen, como puede ser de hacking ético, 
-                        Python, Linux, ¡y muchos mas!
+                        Python, Linux, ¡y muchos mas! -->
                     </p>
+                    <ul class="lista-tecnologias">
+                        <li>Solidity</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>JavaScript</li>
+                        <li>Arduino</li>
+                        <li>CSS</li>
+                        <li>React</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                    </ul>
                 </span>
             </div>
-            <div class="box col-4">
+            <div class="box">
                 <div class="content-img">
                     <img src="img/foto_yago.jpeg">
                 </div>
             </div>
         </div>
 
-        <!-- Formación -->
-        <div class="div-formacion row" id="formacion">
-            <div class="contenido-formacion col-7 align-self-start">
-                <h2>Formación</h2>
-                <p>
-                    En cuanto a mi formación académica, al salir del bachillerato de ciencias cursé un grado superior de Técnico en Desarrollo de Aplicaciones Multiplataforma en la Universidad Europea de Madrid, para mas tarde estar realizando una Ingeniería Informática.<br><br>
-                    Por otro lado, también he realizado cursos online por mi cuenta, como por ejemplo, "Introducción al hacking ético", "Aprende a programar en Python", "Hacking de redes inalámbricas", "Linux: de Noob a Pro", "Programa Avanzado de Trading Financiero", sumando entre todos ellos mas de 56 horas.
-                </p>
-            </div>
-        </div>
 
-        <!-- Experiencia -->
-        <div class="div-experiencia row" id="experiencia">
-            <div class="contenido-experiencia col-7 align-self-end">
-                <h2>Experiencia</h2>
-                <p>
-                    4 años de experiencia en Piscinas Geiser como socorrista, Trabajando cada día en la seguridad, protección y
-                    auxilio de las personas usuarias de la piscina en Cotos de Monterrey.
-                </p>
-            </div>
-        </div>
-
-        <!-- Contacto -->
-        <hr class="separador">
-        <div class="div-contacto" id="contacto">
-            <h2>Contacto</h2>
-
-            <div class="row align-self-center">
-                <div class="text-contacto col">
-                    <a href="#"><span></span>Yago.igle@gmail.com</a>
+        <!-- FORMACIÓN -->
+        <div class="div-formacion" id="formacion">
+            <div class="contenido-formacion">
+                <!-- Título -->
+                <div class="titulos">
+                    <div class="linea">&nbsp;</div>
+                    <div class="leyenda"><span class="num-titulo">02. </span>Formación</div>
+                    <div class="linea">&nbsp;</div>
                 </div>
-                <div class="text-contacto col">
-                    <a href="#"><span></span>+34 633 22 13 04</a>
+                <!-- Contenido -->
+                <div class="d-flex nav-formacion">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link active btn-formacion" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Grado Superior</button>
+                        <button class="nav-link btn-formacion" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Ingeniería</button>
+                        <button class="nav-link btn-formacion" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Online</button>
+                        <button class="nav-link btn-formacion" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Otros</button>
+                        <button class="nav-link btn-formacion" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Bachillerato</button>
+                    </div>
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                            <p class="curso">Grado Superior de Técnico en Desarrollo de Aplicaciones Multiplataforma</p>
+                            <p class="colegio">@Universidad Europea </p>
+                            <p class="fecha-curso">2018 - 2020</p>
+                            <ul class="descripcion-curso">
+                                <li>Ciclo muy práctco debido a la gran cantidad de proyectos realizados.</li>
+                                <li>Mejoras en trabajo en equipo y formación laboral.</li>
+                                <li>Conocimientos en Desarrollo Móvil, Desarrollo Web, Linux, Bases de datos...</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                            <p class="curso">Ingeniería Informática</p>
+                            <p class="colegio">@Universidad Europea </p>
+                            <p class="fecha-curso">2020 - Presente</p>
+                            <ul class="descripcion-curso">
+                                <li>Ingeniería práctica con proyectos grandes cada año.</li>
+                                <li>Mejoras en una visión mas global sobre el mundo tecnológico</li>
+                                <li>Conocimientos en Calculo, Estadística, Robótica, Programación, Sistemas Operativos, Civerseguridad y Inteligencia Artificial</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                            <p class="curso">- Introducción al hacking ético</p>
+                            <p class="curso">- Aprende a programar en Python</p>
+                            <p class="curso">- Hacking en redes inhalámbricas</p>
+                            <p class="curso">- Linux: "de noob a pro"</p>
+                            <p class="curso">- Componenetes de un PC</p>
+                            <p class="colegio">@Academia Mastermind</p>
+                            <p class="fecha-curso">2020 - Presente  (+40 horas)</p>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+                            <p class="curso">Programa Avanzado de Trading Financiero</p>
+                            <p class="colegio">@Benowu</p>
+                            <p class="fecha-curso">2018 - 2019  (+20 horas)</p>
+                            <ul class="descripcion-curso">
+                                <li>Práctica constante con dinero ficticio y real</li>
+                                <li>Conocimientos en Macroeconomía, Análisis técnico y fundamental, Estrategias de trading, Psicotrading y Criptomonedas</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+                            <p class="curso">Bachillerato de Ciencias</p>
+                            <p class="colegio">@Gredos San Diego Buitrago</p>
+                            <p class="fecha-curso">2016 - 2018</p>
+                            <ul class="descripcion-curso">
+                                <li>Preparación de aprendizaje para la entrada a estudios superiores</li>
+                                <li>Conocimientos destacables en Álgebra, Inglés, TIC, Química, Biología e Historia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- PROYECTOS -->
+        <div class="div-proyectos" id="proyectos">
+            <div class="contenido-proyectos">
+                <!-- Título -->
+                <div class="titulos">
+                    <div class="linea">&nbsp;</div>
+                    <div class="leyenda"><span class="num-titulo">03. </span>Algunos Proyectos</div>
+                    <div class="linea">&nbsp;</div>
+                </div>
+
+                <!-- Proyecto  1 -->
+                <div class="row g-0 h-100 card-proyecto">
+                    <div class="col-md-6 mb-md-0 img-proyecto">
+                        <a href="https://github.com/yagoid/Meraki" target = "_blank">
+                            <!-- <div class="img-filtro"></div> -->
+                            <img src="img/meraki.png" alt="Aplicación Meraki">
+                        </a>
+                    </div>
+                    <div class="col-md-6 p-4 ps-md-0 propiedades-proyecto" style="text-align: right;">
+                        <p class="importancia-proyecto">Pryecto destacado</p>
+                        <h3 class="titulo-proyecto">Meraki</h3>
+                        <div class="descripcion-proyecto">
+                            <p>
+                                Meraki es un aplicación para Android cuyo objetivo principal es permitir 
+                                a las tiendas más pequeñas la opción de llegar a un mayor número de clientes. 
+                                Gracias a Meraki, los usuarios que entren en ella, podrán observar las tiendas 
+                                que se han dado de alta en su zona, de este modo, podrás ver su localización exacta, 
+                                los productos existentes, y mucha más información.
+                            </p>
+                        </div>
+                        <ul class="tecnologias-proyecto" style="justify-content: end;">
+                            <li>Antroid Studio</li>
+                            <li>Firebase</li>
+                            <li>Java</li>
+                            <li>API Maps</li>
+                            <li>Google Play</li>
+                        </ul>
+                        <div class="enlaces-proyecto">
+                            <a href="https://github.com/yagoid/Meraki" target = "_blank"><ion-icon name="logo-github"></ion-icon></a>
+                            <a href="https://play.google.com/store/apps/details?id=uem.dam.meraki&gl=ES" target = "_blank"><ion-icon name="logo-google-playstore"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto  2 -->
+                <div class="row g-0 h-100 card-proyecto" style="margin-top: 130px;">
+                    <div class="col-md-6 p-4 ps-md-0 propiedades-proyecto">
+                        <p class="importancia-proyecto">Pryecto destacado</p>
+                        <h3 class="titulo-proyecto">Easytable</h3>
+                        <div class="descripcion-proyecto">
+                            <p>
+                                Easytable es un programa infromático con el objetivo de que los clientes puedan reservar en 
+                                cualquier restaurante basandose en datos de sensores como calidad del aire, temperatura, y ruido, 
+                                todos ellos instalados en el local.
+                            </p>
+                        </div>
+                        <ul class="tecnologias-proyecto">
+                            <li style="margin-left: 0;">Sensores</li>
+                            <li>C++</li>
+                            <li>SQL</li>
+                            <li>Java</li>
+                            <li>ESP32</li>
+                        </ul>
+                        <!-- <div class="enlaces-proyecto">
+                            <a href="https://github.com/ProyectoInformatica/PR_INF_21-22-easytable"><ion-icon name="logo-github" style="margin-left: 0;"></ion-icon></a>
+                        </div> -->
+                    </div>
+                    <div class="col-md-6 mb-md-0 img-proyecto img-izq">
+                        <a>
+                            <img src="img/easytable.PNG" alt="Aplicacion Easytable">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Proyecto  3 -->
+                <div class="row g-0 h-100 card-proyecto" style="margin-top: 170px;">
+                    <div class="col-md-6 mb-md-0 img-proyecto">
+                      <a href="https://github.com/yagoid/octansNFTs" target = "_blank">
+                        <img src="img/captura_octans.PNG" alt="Pagina web Octans">
+                    </a>
+                    </div>
+                    <div class="col-md-6 p-4 ps-md-0 propiedades-proyecto" style="text-align: right;">
+                        <p class="importancia-proyecto">Pryecto destacado</p>
+                        <h3 class="titulo-proyecto">Octans</h3>
+                        <div class="descripcion-proyecto">
+                            <p>
+                                Octans es una plataforma web de NFTs con React y 
+                                Ethereum en la que, conectando tu wallet, 
+                                puedes crear NFTs interactuando con la blockchain.
+                            </p>
+                        </div>
+                        <ul class="tecnologias-proyecto" style="justify-content: end;">
+                            <li>Ethereum</li>
+                            <li>React</li>
+                            <li>Solana</li>
+                            <li>JavaScript</li>
+                            <li>Tailwindcss</li>
+                        </ul>
+                        <div class="enlaces-proyecto">
+                            <a href="https://github.com/yagoid/octansNFTs" target = "_blank"><ion-icon name="logo-github"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Otros proyectos -->
+                <div class="otros-proyectos">
+                    <h3 style="font-family: 'Raleway', sans-serif;">Otros Proyectos Desarrollados</h3>
+
+                    <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top: 50px;">
+                        <!-- Card 1 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <div class="iconos-proyecto">
+                                        <ion-icon name="code-slash-outline"></ion-icon>
+                                        <a href="https://github.com/yagoid/MachineLearning" target = "_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                    </div>
+                                    <h4 class="card-title">Machine Learning</h4>
+                                    <p class="card-text">
+                                        Grandes datos de insuficiencia cardiaca en personas son analizados 
+                                        con modelos de machine learning en Python.
+                                    </p>
+                                    <ul class="tecnologias-proyecto tech-otros">
+                                        <li>Python</li>
+                                        <li>Jupyter Notebook</li>
+                                        <li>Kaggle</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <div class="iconos-proyecto">
+                                        <ion-icon name="code-slash-outline"></ion-icon>
+                                        <a href="https://github.com/yagoid/PythonProjects" target = "_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                    </div>
+                                    <h4 class="card-title">Python Proyects</h4>
+                                    <p class="card-text">
+                                        Programas diversos con diferentes enfoques, realizados por diversión y 
+                                        para aumentar el conocimiento en el lenguaje.
+                                    </p>
+                                    <ul class="tecnologias-proyecto tech-otros">
+                                        <li>Python</li>
+                                        <li>Web Scraping</li>
+                                        <li>Blockchain</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <div class="iconos-proyecto">
+                                        <ion-icon name="code-slash-outline"></ion-icon>
+                                        <a href="https://github.com/yagoid/yagoid.github.io" target = "_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                    </div>
+                                    <h4 class="card-title">Yago Portfolio</h4>
+                                    <p class="card-text">
+                                        My sitio web personal (web actual). Diseñado y desarrollado por Yago Iglesias.<br></br>
+                                    </p>
+                                    <ul class="tecnologias-proyecto tech-otros">
+                                        <li>JavaScript</li>
+                                        <li>CSS</li>
+                                        <li>Bootstrap</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <div class="iconos-proyecto">
+                                        <ion-icon name="code-slash-outline"></ion-icon>
+                                        <a href="https://github.com/yagoid/myfirstcontract" target = "_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                    </div>
+                                    <h4 class="card-title">Mi First Contract</h4>
+                                    <p class="card-text"> 
+                                        El contrato con el objetivo de crear una lista de tareas en la blockchain y poder acceder 
+                                        a ellas pudiendo editarlas y eliminarlas.
+                                    </p>
+                                    <ul class="tecnologias-proyecto tech-otros">
+                                        <li>Ethereum</li>
+                                        <li>Solana</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <div class="iconos-proyecto">
+                                        <ion-icon name="code-slash-outline"></ion-icon>
+                                        <a href="https://github.com/yagoid/TinderPadel" target = "_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                    </div>
+                                    <h4 class="card-title">Tinder Padel</h4>
+                                    <p class="card-text">
+                                        Aplicación para Android con función de generar parejas aleatorias para 
+                                    deportes de equipos de dos (preferiblemente padel).
+                                    </p>
+                                    <ul class="tecnologias-proyecto tech-otros">
+                                        <li>Antroid Studio</li>
+                                        <li>Java</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <div class="iconos-proyecto">
+                                        <ion-icon name="code-slash-outline"></ion-icon>
+                                        <a href="https://github.com/yagoid/SafeJail" target = "_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                    </div>
+                                    <h4 class="card-title">Safejail</h4>
+                                    <p class="card-text">
+                                        Sistema de seguridad y organización para los establecimientos penitenciarios. 
+                                        Proyecto de ingeniería.<br></br>
+                                    </p>
+                                    <ul class="tecnologias-proyecto tech-otros">
+                                        <li>Java</li>
+                                        <li>Eclipse</li>
+                                        <li>BBDD</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CONTACTO -->
+        <div class="div-contacto" id="contacto">
+            <div class="contenido-contacto">
+                <!-- Título -->
+                <h5>04.  ¿Qué es lo próximo?</h5>
+
+                <div class="text-contacto">
+                    <h2>Contáctame</h2>
+
+                    <p>¡Actualmente estoy abierto a nuevas oportunidades! <br></br>
+                        Mi bandeja de entrada siempre estará abierta.
+                        Ya sea que tenga una pregunta o simplemente saludar ¡Haré todo lo posible por responder!
+                    </p>
+
+                    <a href="mailto:yago.igle@gmail.com" class="btn-contacto" target = "_blank"><span>DI HOLA</span></a>
+                    <!-- <div class="text-contacto col">
+                        <a href="#"><span></span>Yago.igle@gmail.com</a>
+                    </div>
+                    <div class="text-contacto col">
+                        <a href="#"><span></span>+34 633 22 13 04</a>
+                    </div> -->
                 </div>
             </div>
         </div>
 
     </div>
 
+    <footer class="footer">
+        <div class="footer-rrss">
+            <ul>
+                <li><a href="https://github.com/yagoid" target = "_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="https://www.linkedin.com/in/yago-iglesias-d%C3%ADaz-4441b6198" target = "_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/yago.id" target = "_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="https://twitter.com/yagoigle" target = "_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            </ul>
+
+            <p class="footer-mail">yago.igle@gmail.com</p>
+        </div>
+        
+        <p class="footer-text">Diseñado & Desarrollado por Yago Iglesias Díaz</p>
+        
+    </footer>
+
+
+
+    
     <!-- SCROLL REVELAR -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
+    <!-- ICONOS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- ARCHIVO JS PERSONALIZADO -->
     <script src="main.js"></script>
 
     <!-- SCRPTS BOOTSTRAP -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
 </body>
 </html>
