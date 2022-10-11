@@ -5,12 +5,6 @@
 }
 
 body {
-    /*background-color: #1A2332; Gris Azulado claro
-    background-color: #111927; Gris Azulado
-    
-    background-image: url("img/img_fondo.png");
-    background-repeat: no-repeat;
-    background-position: top center;*/
     background-color: #141D2B;
     color: #e8f5ff;
 }
@@ -963,11 +957,6 @@ p {
 
 
 /*Responsive*/
-/* @media (max-width: 1410px) {
-    .img-izq a img {
-        right: 200px;
-    } 
-} */
 @media (max-width: 1210px) {
     .box {
         height: 300px;
@@ -1032,10 +1021,6 @@ p {
     }
 }
 @media (max-width: 769px) {
-    /* .box {
-        height: 250px;
-        width: 250px;
-    } */
     .menu {
         top: 80%;
         left: 10%;
