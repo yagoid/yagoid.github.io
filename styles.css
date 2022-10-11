@@ -672,9 +672,6 @@ p {
 }
 
 /* "Otros proyectos" */
-.otros-proyectos {
-
-}
 .col {
     padding: 0px 7px;
     margin-top: 14px;
@@ -1022,8 +1019,8 @@ p {
 }
 @media (max-width: 769px) {
     .menu {
-        top: 80%;
-        left: 10%;
+        top: 90%;
+        left: 40%;
     }
     .div-container {
         padding: 0px 20px;
