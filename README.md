@@ -1,6 +1,5 @@
 # Yagoid
 
-![Algunas pantallas](img/background_waves.svg)
 ![Algunas pantallas](img/background_waves2.svg)
 
 ¡Bienvenido a mi página web personal! Aquí encontrarás información sobre mí, así como una colección de los proyectos en los que he trabajado. Este portafolio representa mi trayectoria y habilidades como desarrollador.
