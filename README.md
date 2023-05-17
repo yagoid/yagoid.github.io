@@ -1,7 +1,5 @@
 # Yagoid
-
-![Algunas pantallas](img/background_waves2.svg)
-
+![background_wave](img/background_waves2.svg)
 ¡Bienvenido a mi página web personal! Aquí encontrarás información sobre mí, así como una colección de los proyectos en los que he trabajado. Este portafolio representa mi trayectoria y habilidades como desarrollador.
 
 ## Acerca de mí
@@ -14,3 +12,4 @@ En este portfolio presento una selección de algunos de los proyectos en los que
 Si deseas ponerte en contacto conmigo para discutir oportunidades de colaboración, proyectos o simplemente para saludar, no dudes en enviarme un correo electrónico a yago.igle@gmail.com. También puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/yagoid/) para establecer una conexión profesional.
 
 ¡Gracias por visitar mi página web personal! Espero que disfrutes explorando mi portafolio y conozcas más sobre mi trabajo y habilidades como desarrollador web.
+![background_wave](img/background_waves.svg)
