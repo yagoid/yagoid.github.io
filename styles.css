@@ -616,8 +616,8 @@ p {
 }
 .img-izq a img {
     position: relative;
-    width: 600px; 
     height: 375px;
+    width: 600px; 
     right: 100px;
 } 
 .propiedades-proyecto {
