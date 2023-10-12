@@ -8,12 +8,23 @@ document.addEventListener('DOMContentLoaded', (e)=> {
 })
 
 
-// Menu Redes Sociales
+// Menú Redes Sociales
 let toggle = document.querySelector('.toggle');
 let menu = document.querySelector('.menu');
 toggle.onclick = function() {
     menu.classList.toggle('active')
 }
+// Si es pantalla pequeña, se esconde el menú
+if (window.innerWidth < 768) {
+    menu.classList.remove('active');
+}
+// Escucha el evento "resize" de la ventana para activar o desactivar el evento según el ancho de la ventana.
+// window.addEventListener("resize", function() {
+//     if (window.innerWidth < 768) {
+//       menu.classList.remove('active');
+//     }
+// });
+
 
 // Animación botón "SOBRE MI"
 const btn_sobremi = document.querySelector('.btn-sobremi');
