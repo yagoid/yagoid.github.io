@@ -945,6 +945,10 @@ p {
 
 /*Responsive*/
 @media (max-width: 1210px) {
+    .menu {
+        top: 90%;
+        left: 40%;
+    }
     .box {
         height: 300px;
         width: 300px;
@@ -1008,10 +1012,6 @@ p {
     }
 }
 @media (max-width: 769px) {
-    .menu {
-        top: 90%;
-        left: 40%;
-    }
     .div-container {
         padding: 0px 20px;
     }
