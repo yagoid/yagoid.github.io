@@ -6,6 +6,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     initScrollReveal();
+    initSplash(); // New splash animation
     initMenu();
     initMouseEffects();
     initLanguageSelector();
@@ -15,18 +16,54 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /* 
    --------------------------------------------------
+   0. SPLASH ANIMATION
+   -------------------------------------------------- 
+*/
+function initSplash() {
+    const splash = document.querySelector('.splash');
+    const navLogo = document.querySelector('.nav-main .nav-logo');
+    const logoPath = document.querySelector('.logo-path');
+
+    // Hide nav logo initially
+    if (navLogo) navLogo.style.opacity = '0';
+
+    // Calculate exact path length for smart timing
+    if (logoPath) {
+        const len = logoPath.getTotalLength();
+        logoPath.style.strokeDasharray = len;
+        logoPath.style.strokeDashoffset = len;
+
+        // Reset animation to ensure it picks up the new values
+        logoPath.style.animation = 'none';
+        logoPath.getBoundingClientRect(); // Trigger reflow
+        logoPath.style.animation = 'drawLogo 2s ease forwards';
+    }
+
+    // Wait exactly the animation duration (3s) + tiny buffer (100ms)
+    setTimeout(() => {
+        if (!splash) return;
+
+        // Hide splash
+        splash.classList.add('display-none');
+
+        // Show nav logo
+        if (navLogo) {
+            navLogo.style.opacity = '1';
+            navLogo.style.transition = 'opacity 0.5s';
+        }
+
+    }, 1400);
+}
+
+/* 
+   --------------------------------------------------
    1. SCROLL REVEAL CONFIG
    -------------------------------------------------- 
 */
 function initScrollReveal() {
     window.sr = ScrollReveal();
 
-    sr.reveal('.header-presentacion', {
-        duration: 3000,
-        origin: 'bottom',
-        distance: '-100px',
-        delay: 2500
-    });
+    // sr.reveal('.header-presentacion'...) removed per user request
 
     sr.reveal('.contenido-sobre-mi', {
         duration: 3000,
@@ -63,14 +100,9 @@ function initScrollReveal() {
    -------------------------------------------------- 
 */
 function initMenu() {
-    const splash = document.querySelector('.splash');
+    // Splash Screen logic moved to initSplash()
     const menu = document.querySelector('.menu');
     const toggle = document.querySelector('.toggle');
-
-    // Splash Screen
-    setTimeout(() => {
-        splash.classList.add('display-none');
-    }, 2000);
 
     // Toggle Menu
     toggle.onclick = () => {

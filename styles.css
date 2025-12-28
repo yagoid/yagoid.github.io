@@ -138,10 +138,22 @@ body::-webkit-scrollbar-thumb {
     transition: all 0.5s;
 }
 
-.fade-in {
-    opacity: 0;
-    height: 110px;
-    animation: fadeIn 1s ease-in forwards;
+
+
+/* Class for the moving animation */
+/* SVG Drawing Animation */
+.logo-path {
+    fill: transparent;
+    stroke: var(--color-primary);
+    stroke-width: 30px;
+    /* stroke-dasharray & offset set via JS for perfect timing */
+    animation: drawLogo 3s ease forwards;
+}
+
+@keyframes drawLogo {
+    to {
+        stroke-dashoffset: 0;
+    }
 }
 
 /* Blobs */
