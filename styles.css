@@ -1540,6 +1540,18 @@ main {
     transform: translateY(-2px);
 }
 
+.archive-link {
+    font-size: 10px;
+    color: var(--text-faint);
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    transition: color 0.2s var(--ease);
+}
+
+.archive-link:hover {
+    color: var(--text-muted);
+}
+
 /* ────────────────────────────────────────────────────────────────────
    16. RESPONSIVE
    ──────────────────────────────────────────────────────────────────── */
