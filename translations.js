@@ -26,7 +26,7 @@ const translations = {
         // About
         about_me_btn: "SOBRE MÍ",
         about_me_title: "Sobre mí",
-        about_me_desc: "Más que código, creo soluciones. Mi viaje en la ingeniería comenzó con la curiosidad de cómo funcionan las cosas y evolucionó hacia la pasión por construir sistemas que impactan el mundo real.<br><br>He liderado proyectos desde aplicaciones móviles en iOS y Android hasta arquitecturas de blockchain privadas, siempre buscando el equilibrio entre código limpio, seguridad y rendimiento. Me fascinan los retos que plantean la IA, el IoT y las industrias críticas como la aeroespacial.<br><br>Cuando no estoy programando, exploro nuevas fronteras en Computer Vision o optimizo algoritmos financieros.",
+        about_me_desc: "A lo largo de mi trayectoria profesional en el campo de la informática, he desarrollado un gran aprecio por el desarrollo de software, encontrando en cada proyecto una oportunidad para aprender y crecer profesionalmente.<br><br>Esto me ha llevado a explorar diversas áreas tecnológicas del desarrollo de software, incluyendo el desarrollo front-end, el desarrollo back-end y la integración de sistemas, entre otras. Cada una de estas áreas ha ampliado mis conocimientos y habilidades, permitiéndome abordar los proyectos con mayor eficiencia.<br><br>Me motiva la idea de contribuir a proyectos tecnológicos que resuelvan problemas complejos y globales. La oportunidad de trabajar en iniciativas que promuevan la innovación es algo que me resulta profundamente interesante.",
 
         // Career & Education
         edu_exp_title: "Trayectoria y Formación",
@@ -134,7 +134,7 @@ const translations = {
         // About
         about_me_btn: "ABOUT ME",
         about_me_title: "About me",
-        about_me_desc: "I build solutions, not just code. My engineering journey started with curiosity and evolved into a drive to architect systems that make a real-world impact.<br><br>From high-performance mobile apps to private blockchain infrastructures, I strive for the sweet spot between clean code, security, and efficiency. I thrive on challenges in AI, IoT, and critical infrastructure.<br><br>When I'm not coding, I'm deep-diving into Computer Vision research or fine-tuning financial algorithms.",
+        about_me_desc: "Throughout my career in the field of computer science, I have developed a great appreciation for software development, finding in each project an opportunity to learn and grow professionally.<br><br>This has led me to explore various technological areas of software development, including front-end development, back-end development, and system integration, among others. Each of these fields has broadened my understanding and skills, allowing me to approach projects more efficiently.<br><br>I am motivated by the idea of ​​contributing to technological projects that solve complex and global problems. The opportunity to work on initiatives that promote innovation is something I find deeply interesting.",
 
         // Career & Education
         edu_exp_title: "Career & Education",
