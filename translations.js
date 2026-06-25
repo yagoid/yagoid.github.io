@@ -78,6 +78,7 @@ const translations = {
         proj_role_solo: "solo · producto · arquitectura",
 
         proj_noteflow_desc: "Aplicación de notas keyboard-first para Windows y Linux pensada para desarrolladores: editor markdown, sticky notes flotantes, grupos con deadlines, notas cifradas individualmente y sincronización privada con GitHub vía OAuth Device Flow. Incluye una CLI standalone para entornos headless (SSH, Raspberry Pi) y se integra como skill para agentes de IA.",
+        proj_watchdog_desc: "Herramienta de monitorización de seguridad conductual en tiempo real para Windows. Observa la actividad del sistema mediante ETW (Event Tracing for Windows) y detecta comportamientos sospechosos con 13 detectores heurísticos y baselines aprendidos en runtime, sin firmas ni inteligencia de amenazas externa. Incluye una UI interactiva en terminal y un modo servicio en segundo plano.",
         proj_keychain_desc: "Gestor de contraseñas de alta seguridad sobre una Blockchain privada implementada desde cero. Utiliza KDF y cifrado AES-256 para garantizar integridad y confidencialidad de los datos, eliminando puntos únicos de fallo.",
         proj_easytable_desc: "Sistema de gestión de reservas inteligente basado en IoT. Permite seleccionar restaurantes según métricas ambientales en tiempo real (calidad del aire, ruido, temperatura) recolectadas por sensores in-situ.",
         proj_meraki_desc: "Plataforma móvil nativa (Android) diseñada para revitalizar el comercio local. Integra geolocalización en tiempo real para conectar usuarios con negocios cercanos y ofrecer un catálogo digital interactivo.",
@@ -186,6 +187,7 @@ const translations = {
         proj_role_solo: "solo · product · architecture",
 
         proj_noteflow_desc: "A keyboard-first note-taking app for Windows and Linux, built for developers: markdown editor, floating sticky notes, color-coded groups with deadlines, individually encrypted notes, and private GitHub sync via OAuth Device Flow. Ships with a standalone CLI for headless environments (SSH, Raspberry Pi) and integrates as a skill for AI agents.",
+        proj_watchdog_desc: "Real-time behavioral security monitoring tool for Windows. Observes system activity through ETW (Event Tracing for Windows) and flags suspicious behavior with 13 heuristic detectors and runtime-learned baselines, with no signatures or external threat intelligence. Ships with an interactive terminal UI and a background service mode.",
         proj_keychain_desc: "High-security password manager built on a custom private Blockchain. Uses KDF and AES-256 encryption to guarantee data integrity and confidentiality, eliminating single points of failure.",
         proj_easytable_desc: "IoT-based intelligent reservation system. Allows users to select restaurants based on real-time environmental metrics (air quality, noise, temperature) collected by on-site sensors.",
         proj_meraki_desc: "Native Android platform designed to revitalize local commerce. Integrates real-time geolocation to connect users with nearby businesses and offer an interactive digital catalog.",

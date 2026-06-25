@@ -997,6 +997,12 @@ main {
     color: var(--text-muted);
 }
 
+.term-company {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+}
+
 .term-file {
     color: var(--coral);
 }
